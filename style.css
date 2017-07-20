@@ -13,9 +13,7 @@ body {
     border-radius: 0;
     border: 0;
 }
-.footer_text{
-    color: #777;
-}
+
 .bg-1{
     padding: 60px 50px;
 }
@@ -27,4 +25,5 @@ body {
 .custom_footer{
     padding:15px;
     text-align:center;
+    color: #777;
 }
