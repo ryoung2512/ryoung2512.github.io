@@ -14,6 +14,10 @@ body {
     border: 0;
 }
 
+.nav>li{
+    float: left;
+}
+
 .bg-1{
     padding: 60px 50px;
 }
