@@ -27,3 +27,11 @@ body {
     text-align:center;
     color: #777;
 }
+
+
+/* mobile navbar */
+@media (max-width: 767px) {
+  .nav_text{
+      display: inline;
+  }
+}
