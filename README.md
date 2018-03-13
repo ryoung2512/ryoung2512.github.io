@@ -1,9 +1,6 @@
 Project: My personal website
-Date: Friday, July 21st 2017
+Last updated: March 13th 2018.
 
 Description:
 Simple website meant as a sort of cover page to help people find me.
 Was made in a couple days.
-
-Things to add:
-More information
