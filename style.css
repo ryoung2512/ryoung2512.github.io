@@ -1,0 +1,45 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+}
+
+.jumbotron{
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0;
+    border: 0;
+}
+
+.nav>li{
+    float: left;
+}
+
+.bg-1{
+    padding: 60px 50px;
+}
+.bg-2{
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+}
+.custom_footer{
+    padding:15px;
+    text-align:center;
+    color: #777;
+}
+
+.code-icon{
+    margin: 0px auto;
+    color: white;
+    background-color: #3b5bdb;
+}
+
+/* mobile navbar */
+@media (max-width: 767px) {
+  .nav_text{
+      display: inline;
+  }
+}
