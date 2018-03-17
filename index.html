@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115921272-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-115921272-1');
+        </script>
+
+
         <title>Rhys' Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified CSS -->
@@ -21,6 +32,11 @@
             <div class="container-fluid">
                   <ul class="nav navbar-nav">
                     <li><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home"><span class="fa fa-home fa-lg" aria-hidden="true"></span></a></li>
+                    <li><a href="#who" data-toggle="tooltip" data-placement="bottom" title="Who am I?"><span class="fas fa-address-card fa-lg" aria-hidden="true"></span></a></li>
+                    <li><a href="#languages" data-toggle="tooltip" data-placement="bottom" title="Programming Languages"><span class="fas fa-code fa-lg" aria-hidden="true"></span></a></li>
+                    <li><a href="#skills" data-toggle="tooltip" data-placement="bottom" title="Skills"><span class="fas fa-trophy fa-lg" aria-hidden="true"></span></a></li>
+                    <li><a href="#education" data-toggle="tooltip" data-placement="bottom" title="Education"><span class="fas fa-graduation-cap fa-lg" aria-hidden="true"></span></a></li>
+                    <li><a href="#projects" data-toggle="tooltip" data-placement="bottom" title="My projects"><span class="fas fa-folder-open fa-lg" aria-hidden="true"></span></a></li>
                     <li><a href="mailto:ryoung08@uoguelph.ca" data-toggle="tooltip" data-placement="bottom" title="Contact Me"><span class="fa fa-envelope-open fa-lg" aria-hidden="true"></span></a></li>
                     <li><a href="https://github.com/ryoung2512" data-toggle="tooltip" data-placement="bottom" title="GitHub"><span class="fab fa-github fa-lg" aria-hidden="true"></span></a></li>
                     <li><a href="rhysyoung2018.pdf" data-toggle="tooltip" data-placement="bottom" title="Resume"><span class="fas fa-file-alt fa-lg" aria-hidden="true"></span></a></li>
@@ -33,7 +49,7 @@
             <img src="images/me.jpg" style="height:300px; max-height:300px; max-width:300px;" class="img-thumbnail" alt="code"/>
         </div>
         <div class="container-fluid">
-            <div class="row bg-1">
+            <div class="row bg-1" id="who">
                 <div class="col-sm-5">
                     <h1>Who am I?</h1>
                     <h4>My name is <b>Rhys Young</b>. I am currently a third-year student at the University of Guelph enrolled in Computer Science.
@@ -46,7 +62,7 @@
                     <img src="images/uog.jpg" style="width: 199px; max-width: 199px;" class="img-thumbnail" alt="uog"/>
                 </div>
             </div>
-            <div class="row bg-2">
+            <div class="row bg-2" id="languages">
                 <div class="col-sm-5">
                     <h1>Programming Languages</h1>
                     <h4>
@@ -66,7 +82,7 @@
                     <img src="images/code.jpg" style="width:300px; height:300px; max-height:300px; max-width:300px;" class="img-circle" alt="code"/>
                 </div>
             </div>
-            <div class="row bg-1">
+            <div class="row bg-1" id="skills">
                 <div class="col-sm-5">
                     <h1>Other Skills</h1>
                     <h4>
@@ -88,7 +104,7 @@
                     <img src="images/speech.png" style="width: 199px; max-width: 199px;" class="img-fluid float-right" alt="speech"/>
                 </div>
             </div>
-            <div class="row bg-2">
+            <div class="row bg-2" id="education">
                 <div class="col-sm-5">
                     <h1>Education</h1>
                     <h4>
@@ -103,7 +119,7 @@
                     <img src="images/diploma.png" style="width: 199px; max-width: 199px;" class="img-fluid float-right" alt="diploma"/>
                 </div>
             </div>
-            <div class="row bg-1">
+            <div class="row bg-1" id="projects">
                 <div class="col-sm-5">
                     <h1>Projects</h1>
                     <h4>
